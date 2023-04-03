@@ -1,0 +1,6 @@
+CREATE TABLE posts (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `blobc` MEDIUMBLOB NOT NULL,
+  `title` VARCHAR(100) NULL,
+  `complain` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));
